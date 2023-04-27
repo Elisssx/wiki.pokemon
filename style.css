@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(0, 81, 255);
+ }
+ b {
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 50px;
+ color:red;
+ text-align: center;
+ }
+ button {
+ background-color:rgb(255, 196, 0);
+ text-align: center;
+ }
+ .header{
+      background-color: palegoldenrod;
+      position: sticky;
+ }
+.logo1{
+   align: left;
+   width: 160px;
+   height: 70px;
+  }
