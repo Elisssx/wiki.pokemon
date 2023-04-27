@@ -7,21 +7,33 @@ body {
  color:red;
  text-align: center;
  }
- button {
- background-color:rgb(255, 196, 0);
- text-align: center;
- }
- .header{
-      background-color: palegoldenrod;
-      position: sticky;
- }
-.logo1{
-   align: left;
+button {
+   background-color:rgb(255, 196, 0);
+   text-align: center;
+   height: 90px;
+   border-radius: 10px;
+}
+.header {
+   background-color:rgb(255, 196, 0);
+   position: sticky;
+   display: grid;
+   grid-template-columns: 20% 1px 20% 20% 20%;
+   padding-left: 10%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.logo1 {
+   margin-right: 400px;
+   /* align: right;*/
    width: 160px;
    height: 70px;
-  }
-  .pokemon{
+}
+.pokemon {
    margin-left: 10px;
-   width: 10px;
+   width: 160px;
    height: 70px;
-  }
+   align-self: center;
+}
+a {
+    text-decoration: none;
+}
