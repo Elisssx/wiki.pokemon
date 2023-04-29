@@ -1,3 +1,22 @@
 body{
-    background-color: rgb(255, 255, 1);
+    background-color: rgb(1, 128, 255);
+}
+div{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.header2 {
+    background-color: yellow;
+    position: sticky;
+    display: grid;
+    align-items: center;
+}
+.immagini2{
+    align-self: right;
+}
+p{
+    align-self: left;
 }
