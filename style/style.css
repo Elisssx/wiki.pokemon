@@ -1,3 +1,8 @@
+body {
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+}
 h1 {
    font-family:serif;
    color: rgb(0, 0, 0);
@@ -6,35 +11,34 @@ h1 {
 }
 b {
    font-family:serif;
-   font-size: 30px;
+   font-size: 3vw;
    color:rgb(0, 0, 0);
    text-align: center;
 }
 button {
    background-color:none;
    text-align: center;
-   height: 50px;
+   height: 5vw;
    border-radius: 20px;
    margin: 0 auto;
-   width: 200px;
+   width: 18%;
    align-self: center;
 }
 .header {
    background-image: url(../images/barra.jpg); /*step out*/
-   position: sticky;
-   display: grid;
-   grid-template-columns:20% 20% 20% 20%;
+   background-repeat: repeat-x;
+   display: flex;
    border-radius: 20px;
    padding-left: 5%;
    padding-right: 5%;
    padding-top: 15px;
    padding-bottom: 15px;
-   height: 170px;
+   height: 21vw;
    text-align:center;
 }
 .pokemon {
    margin-top: 10px;
-   width: 200px;
+   width: 100%;
    height: 150;
    align-self: auto;
 }
@@ -44,20 +48,63 @@ p {
    font-size: 20px;
    color:rgb(0, 0, 0);
 }
-.table1,tr{
+.table1, tr{
    border-radius: 10px;
    margin-top: 15px;
    text-align: center;
    margin-left: auto;
-   margin-right:auto;
+   margin-right: auto;
    border-color: cornflowerblue;
-   border-width:2px;
+   border-width: 2px;
    border-style: solid;
+}
+table.table1 {
+   width: 100%;
 }
 
 a {
-    text-decoration: none;
+   text-decoration: none;
 }
 a:hover {
   text-decoration: underline black;
+}
+
+/* Desktop */
+@media screen and (min-width: 800px) {
+
+}
+
+/* Mobile */
+@media screen and (max-width: 800px) {
+   div.header {
+      flex-direction: column;
+      width: 100vw;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
+   }
+   div.header image {
+      width: 100vw;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
+   }
+   button {
+      margin-top: 2vw;
+   }
+   table.table1 {
+      height: 100vw;
+      transform: rotate(90deg);
+      border-color: transparent;
+   }
+   td {
+      transform: rotate(-90deg);
+      margin-left: auto;
+      width: 10vw;
+      padding: 0;
+      margin: 0;
+   }
+   td p {
+      color: transparent;
+   }
 }
