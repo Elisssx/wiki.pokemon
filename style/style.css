@@ -23,7 +23,7 @@ button {
    align-self: center;
 }
 .header {
-   background-image: url(barra.jpg);
+   background-image: url(../images/barra.jpg); /*step out*/
    position: sticky;
    display: grid;
    grid-template-columns:20% 20% 20% 20%;
@@ -49,10 +49,10 @@ p {
 }
 .table1,tr{
    border-radius: 10px;
-   align-self: auto;
    margin-top: 15px;
    text-align: center;
-   margin-left: 4px;
+   margin-left: auto;
+   margin-right:auto;
    border-color: cornflowerblue;
    border-width:2px;
    border-style: solid;
