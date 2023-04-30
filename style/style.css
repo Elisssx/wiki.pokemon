@@ -55,10 +55,11 @@ a {
 a:hover {
   text-decoration: underline black;
 }
-div.container{
+.container {
+      border:3px solid;
       border-radius: 20px;
       display: flex;
-      background-color: rgb(122, 188, 255);
+      border-color: rgb(122, 188, 255);
       text-align: center;
 }
 /* Desktop */
@@ -85,8 +86,8 @@ div.container{
    button {
       margin-top: 2vw;
    }
-   div.container{
-      background-color:rgb(255, 122, 122);
+   .container{
+      border-color:rgb(255, 122, 122);
       flex-direction: column;
       margin-left: auto;
       margin-right: auto;
