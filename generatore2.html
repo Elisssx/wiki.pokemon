@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="style/style.css">
+    <title>POKEMON CASUALE</title>
+</head>
+<style>
+    b{
+        text-align: center;
+        font-size: 30px;
+    }
+    body{
+   display: flex;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 15%;
+}
+</style>
+<body class="generatore">
+    
+    <b id="output"></b>
+    <script>
+        var pokemon = ["images/pikachu.png", "images/bulbasaur.png", "images/charmander.png", "images/charizard.png", "images/pidgey.png", "images/arbok.png"];
+        var nomi = ["PIKACHU", "BULBASAUR", "CHARMANDER", "CHARIZARD", "PIDGEY", "ARBOK"]
+        var i = Math.floor(Math.random() * 6);
+        document.write("<img class='generatore' src=" + pokemon[i] + ">");
+        document.getElementById("output").innerHTML = "COMPLIMENTI HAI CATTURATO UN "
+         + nomi[i] + "!!!";
+    </script>
+</body>
+</html>
