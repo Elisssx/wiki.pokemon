@@ -109,7 +109,7 @@ a:hover {
       margin-top: 0;
    }
    .header{
-      background-image: url(../images/barra2.png); /*step out*/
+      background-image: url(../images/barra2.png);
       height: 40vw;
    }
 }

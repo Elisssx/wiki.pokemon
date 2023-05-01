@@ -9,27 +9,58 @@
 </head>
 <style>
     b{
-        text-align: center;
         font-size: 30px;
     }
-    body{
+body{
    display: flex;
-   align-items: center;
-   width: 80%;
    margin: 0 auto;
-   margin-top: 15%;
 }
+.header {
+   background-image: url(../images/barra.jpg);
+   background-repeat: repeat-x;
+   display: flex;
+   margin-top: 10px;
+   border-radius: 50px;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   height: 21vw;
+   text-align:center;
+}
+button {
+   background-color:none;
+   text-align: center;
+   height: 5vw;
+   border-radius: 20px;
+   margin: 0 auto;
+   width: 18%;
+   align-self: center;
+}
+.random{
+    align-self: center;
+    }
 </style>
-<body class="generatore">
-    
+<div class="header">
+    <button>
+       <a href="front.html"><b>Home</b></a>
+    </button>
+    <button>
+       <a href="contatti.html"><b>Contacts</b></a>
+    </button>
+    <button>
+       <a href="generatore1.html"><b>Random</b></a>
+    </button>   
+</div>
+<body class="random">
     <b id="output"></b>
     <script>
+      var pagina = ["pikachu.html", "bulbasaur.html", "charmander.html", "charizard.html", "pidgey.html", "arbok.html"]
         var pokemon = ["images/pikachu.png", "images/bulbasaur.png", "images/charmander.png", "images/charizard.png", "images/pidgey.png", "images/arbok.png"];
         var nomi = ["PIKACHU", "BULBASAUR", "CHARMANDER", "CHARIZARD", "PIDGEY", "ARBOK"]
         var i = Math.floor(Math.random() * 6);
-        document.write("<img class='generatore' src=" + pokemon[i] + ">");
-        document.getElementById("output").innerHTML = "COMPLIMENTI HAI CATTURATO UN "
-         + nomi[i] + "!!!";
+        document.write("<a href=" + pagina[i] + "><img class='random' src=" + pokemon[i] + "></a>");
+        document.getElementById("output").innerHTML = "COMPLIMENTI HAI CATTURATO  " + nomi[i] + "!!!";
     </script>
 </body>
 </html>
