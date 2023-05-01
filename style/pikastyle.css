@@ -37,19 +37,22 @@ body {
     height: 21vw;
     text-align:center;
  }
- .container{
+ .container1{
    align-self: center;
    border-radius: 20px;
    align-items: center;
    display: flex;
    background-color:rgb(255, 255, 163);
-   width: 50vw;
-   height: 50vh;
  }
  .immagini{
-   width: 100%;
-   height: 100%;
+   padding:2vw;
+   height: 80%;
+   width: 80%;
    align-self: center;
+ }
+ p{
+   font-size:30px;
+   text-align: center;
  }
  
  a {
