@@ -10,9 +10,9 @@ body {
     font-size: 60px;
  }
  b {
-    font-size: 3vw;
-    color:rgb(0, 0, 0);
-    text-align: center;
+   color: #000;
+   font-size:3vw;
+   align-self: center;
  }
  button {
     background-color:none;
@@ -36,10 +36,11 @@ body {
     height: 21vw;
     text-align:center;
  }
- .container1{
+ .container{
    align-self: center;
    border-radius: 20px;
    align-items: center;
+   text-align: center;
    display: flex;
    background-color:rgb(255, 255, 163);
  }
@@ -48,6 +49,9 @@ body {
    height: 80%;
    width: 80%;
    align-self: center;
+ }
+ a:hover {
+   text-decoration: underline black;
  }
  p{
    font-size:30px;
