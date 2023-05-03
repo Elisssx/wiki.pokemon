@@ -33,7 +33,7 @@ body {
     padding-right: 5%;
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 21vw;
+    height: 19vw;
     text-align:center;
  }
  .container{
@@ -61,3 +61,40 @@ body {
  a {
     text-decoration: none;
  }
+ @media screen and (max-width: 800px) {
+   div.header {
+      background-color: rgb(255, 255, 255);
+      flex-direction: column;
+      width: 100vw;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
+   }
+   div.header image {
+      width: 100vw;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
+   }
+   button {
+      margin-top: 2vw;
+   }
+   .container{
+      border-color:rgb(255, 122, 122);
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      text-align: center;
+      border-radius: 20vw;
+      width: 80%;
+   }
+   div.container div p {
+      font-size: 10vw;
+      margin-top: 0;
+   }
+   .header{
+      background-image: url(../images/barra2.png);
+      height: 40vw;
+   }
+}
