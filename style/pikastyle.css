@@ -42,12 +42,25 @@ body {
    align-items: center;
    text-align: center;
    display: flex;
+   padding:2vw;
    background-color:rgb(255, 255, 163);
+   max-width: 50vw;
+   max-height: 50vw;
+ }
+ table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ td, th {
+   padding: 8px;
+   text-align: left;
+   border: 1px solid #000000;
  }
  .immagini{
-   padding:2vw;
-   height: 80%;
-   width: 80%;
+   padding-top:2vw;
+   width: 70%;
+   height: 70%;
    align-self: center;
  }
  a:hover {
