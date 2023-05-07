@@ -4,10 +4,17 @@ body {
     flex-direction: column;
     padding: 0;
  }
+ .simbolo{
+   width: 1.5vw;
+   margin-left: 1vw;
+ }
  h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 60px;
+ }
+ .tab{
+   font-size: 1.5vw;
  }
  b {
    color: #000;
@@ -53,7 +60,7 @@ body {
  }
  
  td, th {
-   padding: 8px;
+   padding: 0px;
    text-align: left;
    border: 1px solid #000000;
  }
@@ -74,6 +81,14 @@ body {
  a {
     text-decoration: none;
  }
+ @media screen and (max-width: 600px) {
+   div.container div b{
+      font-size: 6vw;
+   }
+   div.container div p{
+      font-size: 6vw;
+   }
+}
  @media screen and (max-width: 800px) {
    div.header {
       background-color: rgb(255, 255, 255);
