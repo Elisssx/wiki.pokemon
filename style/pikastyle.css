@@ -15,6 +15,7 @@ body {
  }
  .tab{
    font-size: 1.5vw;
+   padding-right:7vw;
  }
  b {
    color: #000;
@@ -51,8 +52,8 @@ body {
    display: flex;
    padding:2vw;
    background-color:rgb(255, 255, 163);
-   max-width: 50vw;
-   max-height: 50vw;
+   /* max-width: 50vw;
+   max-height: 50vw; */
  }
  table {
    border-collapse: collapse;
@@ -63,12 +64,14 @@ body {
    padding: 0px;
    text-align: left;
    border: 1px solid #000000;
+   text-align: left;
  }
  .immagini{
+
    padding-top:2vw;
+   margin:0;
    width: 70%;
    height: 70%;
-   align-self: center;
  }
  a:hover {
    text-decoration: underline black;
@@ -115,17 +118,17 @@ body {
       padding: 0;
       text-align: center;
       border-radius: 20vw;
-      width: 80%;
+      /* width: 80%; */
    }
    div.container div p {
-      font-size: 8vw;
+      font-size: 15vw;
       margin-top: 0;
    }
    .header{
       background-image: url(../images/barra2.png);
       height: 40vw;
    }
-   div.b{
-      font-size: 8vw;
+   .tab{
+      font-size: 3vw;
    }
 }
