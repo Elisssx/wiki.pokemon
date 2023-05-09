@@ -4,6 +4,7 @@ body {
    display: flex;
    flex-direction: column;
    padding: 0;
+   background-image: linear-gradient(top right, #ff0f0f 0%, #AACFEF 100%);
 }
 h1 {
    color: rgb(0, 0, 0);
@@ -103,8 +104,9 @@ a:hover {
       width: 80%;
    }
    div.container div p {
-      font-size: 10vw;
+      font-size: 15vw;
       margin-top: 0;
+      background-repeat: repeat-y;
    }
    .header{
       background-image: url(../images/barra2.png);

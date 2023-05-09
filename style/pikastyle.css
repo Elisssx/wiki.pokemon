@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
+      background: linear-gradient(#97e2ff, #3748ff);
  }
  .simbolo{
    width: 20px;
@@ -18,10 +19,9 @@ body {
    padding-right:7vw;
  }
  b {
-   align-self: top;
+   align-self: center;
    color: #000;
    font-size:3vw;
-   padding-bottom: 30vw;
  }
  button {
     background-color:none;
@@ -33,17 +33,17 @@ body {
     align-self: center;
  }
  .header{
-    background-image: url(../images/barra.jpg); /*step out*/
-    background-repeat:repeat-x;
-    display: flex;
-    margin-top: 10px;
-    border-radius: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    /* height: 19vw; */
-    text-align:center;
+   background-image: url(../images/barra.jpg); /*step out*/
+   background-repeat: repeat-x;
+   display: flex;
+   margin-top: 10px;
+   border-radius: 50px;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   height: 19vw;
+   text-align:center;
  }
  .container{
    align-self: center;
@@ -52,12 +52,10 @@ body {
    text-align: center;
    display: flex;
    padding:2vw;
-   background-color:rgb(255, 255, 163);
    /* max-width: 50vw;
    max-height: 50vw; */
  }
  table {
-   padding-top:100vw;
    border-collapse: collapse;
    width: 100%;
  }
@@ -69,11 +67,10 @@ body {
    text-align: left;
  }
  .immagini{
-   margin:0;
-   padding-top:2vw;
    align-self: auto;
    width: 30vw;
    height: 40vw;
+   padding-right:3vw;
  }
  a:hover {
    text-decoration: underline black;
@@ -95,6 +92,10 @@ body {
    }
 }
  @media screen and (max-width: 800px) {
+   body{
+   background: linear-gradient(#ff9696, #ff3e3e);
+
+   }
    div.header {
       background-color: rgb(255, 255, 255);
       flex-direction: column;
@@ -123,12 +124,16 @@ body {
       /* width: 80%; */
    }
    div.container div p {
-      font-size: 15vw;
+      font-size: 2vw;
       margin-top: 0;
    }
    .header{
       background-image: url(../images/barra2.png);
       height: 40vw;
+      background-repeat: repeat-y;
+   }
+   div.container div b{
+      font-size: 2vw;
    }
    .tab{
       font-size: 3vw;
