@@ -5,7 +5,7 @@ body {
     padding: 0;
  }
  .simbolo{
-   width: 1.5vw;
+   width: 20px;
    margin-left: 1vw;
  }
  h1 {
@@ -18,9 +18,10 @@ body {
    padding-right:7vw;
  }
  b {
+   align-self: top;
    color: #000;
    font-size:3vw;
-   align-self: center;
+   padding-bottom: 30vw;
  }
  button {
     background-color:none;
@@ -41,7 +42,7 @@ body {
     padding-right: 5%;
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 19vw;
+    /* height: 19vw; */
     text-align:center;
  }
  .container{
@@ -56,6 +57,7 @@ body {
    max-height: 50vw; */
  }
  table {
+   padding-top:100vw;
    border-collapse: collapse;
    width: 100%;
  }
@@ -67,11 +69,11 @@ body {
    text-align: left;
  }
  .immagini{
-
-   padding-top:2vw;
    margin:0;
-   width: 70%;
-   height: 70%;
+   padding-top:2vw;
+   align-self: auto;
+   width: 30vw;
+   height: 40vw;
  }
  a:hover {
    text-decoration: underline black;
