@@ -47,7 +47,7 @@ body {
  }
  .container{
    align-self: center;
-   border-radius: 20px;
+   border-radius: 5vw;
    align-items: center;
    text-align: center;
    display: flex;
@@ -118,9 +118,9 @@ body {
       flex-direction: column;
       margin-left: auto;
       margin-right: auto;
-      padding: 0;
+      /*padding: 10vw;*/
       text-align: center;
-      border-radius: 20vw;
+      border-radius: 5vw;
       /* width: 80%; */
    }
    div.container div p {
