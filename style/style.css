@@ -106,6 +106,7 @@ a:hover {
    div.container div p {
       font-size: 15vw;
       margin-top: 0;
+      text-align: center;
       background-repeat: repeat-y;
    }
    .header{
