@@ -3,18 +3,19 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
-      background: linear-gradient(#97e2ff, #3748ff);
+   background: linear-gradient(#97e2ff, #3748ff);
+   overflow: hidden;
  }
  .simbolo{
-   width: 20px;
-   margin-left: 1vw;
+   width: 2vw;
+   align-items: center;
  }
  h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 60px;
  }
- .tab{
+ .tab td,th{
    font-size: 1.5vw;
    padding-right:7vw;
  }
@@ -124,10 +125,11 @@ body {
       /* width: 80%; */
    }
    div.container div p {
-      font-size: 2vw;
+      font-size: 1vw;
       margin-top: 0;
    }
    .header{
+      align-self: center;
       background-image: url(../images/barra2.png);
       height: 40vw;
       background-repeat: repeat-y;
@@ -135,10 +137,18 @@ body {
    div.container div b{
       font-size: 2vw;
    }
-   .tab{
-      font-size: 3vw;
-   }
-   table{
+   table {
       margin-left: auto;
+   }
+   .tab td,th{
+      font-size: 3vw;
+      text-align: center;
+   }
+   .simbolo{
+      width:4vw;
+      align-items: center;
+   }
+   li{
+      margin:0;
    }
 }

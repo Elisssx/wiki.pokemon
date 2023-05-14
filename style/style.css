@@ -5,6 +5,7 @@ body {
    flex-direction: column;
    padding: 0;
    background-image: linear-gradient(top right, #ff0f0f 0%, #AACFEF 100%);
+   overflow: hidden;
 }
 h1 {
    color: rgb(0, 0, 0);
