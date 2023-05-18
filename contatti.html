@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/pikastyle.css">
+</head>
+<head>
+  <style>
+    .body1 {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    canvas {
+      background-color: black;
+      display: block;
+      margin: 0 auto;
+    }
+    .header1{
+    background-color: black;
+   display: flex;
+   padding-bottom: 15px;
+   height: 9vw;
+   text-align:center;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+  </style>
+</head>
+<body class="body1">
+        <div class="header1">
+           <button>
+              <a href="front.html"><b>Home</b></a>
+           </button>
+           <button>
+              <a href="contatti.html"><b>Contacts</b></a>
+           </button>
+           <button>
+              <a href="generatore1.html"><b>Random</b></a>
+           </button> 
+  </div> 
+  <canvas id="barra"></canvas>
+  <script>
+    var canvas = document.getElementById('barra');
+    var context = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    var barraWidth = 200; // Larghezza della barra
+    var offsetX = 90; // Spostamento a destra
+
+    context.fillStyle = 'orange';
+    context.fillRect((canvas.width - barraWidth) / 2 + offsetX, 0, barraWidth, canvas.height);
+  </script>
+    <div class="loghi">
+        <h1>Contatti</h1>
+        <div class="social">
+          <a href="https://www.facebook.com/">
+            <img src="facebook_logo.png" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src="instagram_logo.png" alt="Instagram">
+          </a>
+          <a href="https://api.whatsapp.com/">
+            <img src="whatsapp_logo.png" alt="WhatsApp">
+          </a>
+        </div>
+      </div>
+    </body>
+    </html>
+</body>
+     
