@@ -4,77 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/pikastyle.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<head>
-  <style>
-    .body1 {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    canvas {
-      background-color: black;
-      display: block;
-      margin: 0 auto;
-    }
-    .header1{
-    background-color: black;
+        <style>
+   .header1{
+   background-color: orange;
    display: flex;
+   margin-top: 10px;
+   border-radius: 50px;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 15px;
    padding-bottom: 15px;
-   height: 9vw;
+   height: 10vw;
    text-align:center;
-    }
-    .social-icons {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-    }
-    
-  </style>
-</head>
-<body class="body1">
-        <div class="header1">
-           <button>
-              <a href="front.html"><b>Home</b></a>
-           </button>
-           <button>
-              <a href="contatti.html"><b>Contacts</b></a>
-           </button>
-           <button>
-              <a href="generatore1.html"><b>Random</b></a>
-           </button> 
-  </div> 
-  <canvas id="barra"></canvas>
-  <script>
-    var canvas = document.getElementById('barra');
-    var context = canvas.getContext('2d');
-
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    var barraWidth = 200; // Larghezza della barra
-    var offsetX = 90; // Spostamento a destra
-
-    context.fillStyle = 'orange';
-    context.fillRect((canvas.width - barraWidth) / 2 + offsetX, 0, barraWidth, canvas.height);
-  </script>
-    <div class="loghi">
-        <h1>Contatti</h1>
-        <div class="social">
-          <a href="https://www.facebook.com/">
-            <img src="facebook_logo.png" alt="Facebook">
-          </a>
-          <a href="https://www.instagram.com/">
-            <img src="instagram_logo.png" alt="Instagram">
-          </a>
-          <a href="https://api.whatsapp.com/">
-            <img src="whatsapp_logo.png" alt="WhatsApp">
-          </a>
-        </div>
+        }
+        .body1{
+            background-color: black;
+        }
+        .loghi{
+        width:4vw;
+        height: 4vw;
+        border-radius: 4px;
+        }
+        .p1{
+            color: white;
+            align-self: left;
+        }
+        </style>
+        <body class="body1">
+      <div class="header1">
+         <button><a href="front.html"><b>Home</b></a></button>
+         <button><a href="contatti.html"><b>Contatti</b></a></button>
+         <button><a href="generatore1.html"><b>Random</b></a></button> 
       </div>
-    </body>
-    </html>
-</body>
-     
+   </body>
+   <body>
+    <div class="contatti">
+    <div>
+    <p class="p1">whatsapp</p>
+    <a href="pikachu.html"><img class="loghi" src="\images\social1.jpg"/></a>
+    </div>
+    <div>
+    </div>
+    <div>
+        
+    </div>
+    </div>
+   </body>
+    
