@@ -37,6 +37,7 @@ button {
    padding-bottom: 15px;
    height: 19vw;
    text-align:center;
+   align-self: center;
 }
 .pokemon {
    margin-top: 10px;
