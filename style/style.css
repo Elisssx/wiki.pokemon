@@ -35,12 +35,12 @@ button {
    padding-right: 5%;
    padding-top: 15px;
    padding-bottom: 15px;
-   height: 19vw;
+   height: 59vw;
    text-align:center;
 }
 .pokemon {
    margin-top: 10px;
-   width: 100%;
+   width: 80%;
    height: 80%;
    align-self: auto;
 }
