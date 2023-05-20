@@ -35,7 +35,7 @@ button {
    padding-right: 5%;
    padding-top: 15px;
    padding-bottom: 15px;
-   height: 59vw;
+   height: 19vw;
    text-align:center;
 }
 .pokemon {
@@ -84,6 +84,7 @@ a:hover {
       padding-left: 0;
       padding-right: 0;
       margin-right: 0;
+      padding-bottom: 40px;
    }
    /* div.header image {
       width: 100vw;
@@ -103,6 +104,12 @@ a:hover {
       text-align: center;
       border-radius: 20vw;
       width: 80%;
+   }
+   .pokemon{
+      width: 60%;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
    }
    div.container div p {
       font-size: 10vw;
