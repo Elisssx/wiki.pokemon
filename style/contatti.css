@@ -22,7 +22,6 @@ text-align:center;
      }
      body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        display: flex;
         flex-direction: column;
         padding: 0;
         background-color: black;
@@ -110,49 +109,40 @@ a:hover {
 text-decoration: underline black;
 }
  @media screen and (max-width: 800px) {
-    
-
+    body{
+        align-items: center;
+    }
  .complaint-box {
     position:relative;
     margin-top: 50px;
     right:0;
  }
  div.header {
-    flex-direction: column;
-    width: 100vw;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
+      flex-direction: column;
+      width: 100vw;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
  }
 .container{
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-top: 30px; 
 }
-button {
-    text-align: center;
-}
-button.b{
-    text-align: center;
-    width: 50%;
-    height: 10%;
-    margin-top: 10px;
-}
 .circle{
- max-width: 200px;
- max-height: 200px;
- top:20px;
+ max-width: 300px;
+ max-height: 300px;
  margin:0;
  padding:0;
  
+ 
 }
 span{ /*inline element */
-      font-size: 15px;
+      font-size:25px;
 }
  .logo{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
  }
  .pulsante{
      text-size-adjust: 10px;
