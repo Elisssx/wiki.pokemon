@@ -110,30 +110,34 @@ a:hover {
 text-decoration: underline black;
 }
  @media screen and (max-width: 800px) {
+    
 
  .complaint-box {
-     margin-top: 50px;
-     max-width: 50px;
-     max-height: 140px;
-     right:10px;
-     display: block
+    position:relative;
+    margin-top: 50px;
+    right:0;
  }
  div.header {
-   flex-direction: column;
-   width: 100vw;
-   padding-left: 0;
-   padding-right: 0;
-   margin-right: 0;
-}
+    flex-direction: column;
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+ }
 .container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 30px; 
 }
 button {
-   text-align: center;
-   align-self: center;
+    text-align: center;
+}
+button.b{
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    margin-top: 10px;
 }
 .circle{
  max-width: 200px;
